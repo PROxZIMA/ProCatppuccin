@@ -1,0 +1,37 @@
+ =phone
+ =messages
+ =play store
+ =firefox
+喇 =com.maxmpz.audioplayer
+ =pl.solidexplorer2
+ =gmail
+ =camera
+ =settings
+ =photos
+ =whatsapp
+search2=search -u https://www.google.com/search?q=%
+profetch=cat t-ui/header
+icons=cat t-ui/icons.txt
+busy=export PATH=/data/data/de.reckendrees.systems.tui.expert/busybox:$PATH
+init=export PATH=$PATH:/data/data/com.termux/files/usr/bin/:/data/data/com.termux/files/usr/bin/applets; su; echo "Termux init successful "
+cpu_freq=cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq |cut -b 1-4
+cpu_temp=cat /sys/class/thermal/thermal_zone0/temp | cut -b 1-2
+cpu_architecture=getprop ro.product.cpu.abi
+todo=tuixt /storage/emulated/0/t-ui/to-do.txt
+showtodo=cat /storage/emulated/0/t-ui/to-do.txt
+/notes0=config -set show_notes false
+/notes1=config -set show_notes true
+/fullscreen1=config -set fullscreen true
+/fullscreen0=config -set fullscreen false
+/toolbar1=config -set show_toolbar true
+/toolbar0=config -set show_toolbar false
+/custom_command0=config -set show_custom_command false
+/custom_command1=config -set show_custom_command true
+ttm=sh /storage/emulated/0/t-ui/script/ttm %
+sysinfo=sh /storage/emulated/0/t-ui/script/sysinfo %
+ttm -p=search -u https://github.com/M4dGun/t-ui_themes
+cls=clear
+delete =su -c pm uninstall %
+wiki=search github.com/fAndreuzzi/TUI-ConsoleLauncher/wiki/Customize-T_UI
+wttr=curl -s "wttr.in/?0qMT"
+patchfetch=sed -i "s/¥/$(getprop ro.build.version.release)/" t-ui/behavior.xml; sed -i "s/¶/$(getprop ro.product.cpu.abi)/" t-ui/behavior.xml; sed -i "s/π/$(uname -r | cut -f 1 -d "/")/" t-ui/behavior.xml; sed -i "s/∆/$(getprop ro.crypto.state)/" t-ui/behavior.xml; sed -i "s/÷/$(getprop ro.build.version.security_patch)/" t-ui/behavior.xml; sed -i "s/✓/$(getprop ro.product.marketname)/" t-ui/behavior.xml; sed -i "s/¢/$(getprop ro.soc.manufacturer)/" t-ui/behavior.xml; sed -i "s/≠/$(getprop ro.soc.model)/" t-ui/behavior.xml; echo 'Run "restart" command';

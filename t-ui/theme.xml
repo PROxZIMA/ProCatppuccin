@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<THEME>
+
+  <custom_command_color value="#F5C2E7" />
+
+  <input_color value="#89B4FA" />
+  <!-- ff79c6-->
+
+  <output_color value="#ffc0caf5" />
+  <bg_color value="#ff161925" />
+  <!--bg_color value="#0000000"-->
+
+  <device_color value="#A6E3A1" />
+
+  <battery_color_high value="#89B4FA" />
+  <battery_color_medium value="#e0af68" />
+  <battery_color_low value="#f7768e" />
+
+  <time_color value="#F9E2AF" />
+  <storage_color value="#89B4FA" />
+  <ram_color value="#89B4FA" />
+  <network_info_color value="#F9E2AF" />
+  <weather_color value="#F9E2AF" />
+
+
+  <toolbar_bg value="#00000000" />
+
+  <!--toolbar_color value="#8be9fd"-->
+  <toolbar_color value="#585B70" />
+  <!--   #6272a4  comment color-->
+  <!--   #44475a  selection color-->
+
+  <enter_color value="#bd93f9" />
+  <cursor_color value="#414868" />
+  <overlay_color value="#00000000" />
+
+
+  <alias_content_color value="#73daca" />
+  <!--alias_content_color value="#50fa7b"-->
+
+  <statusbar_color value="#ff161925" />
+  <!--Android (top) statusbar color -->
+  <navigationbar_color value="#0024283b" />
+  <!--Android (bottom) navigation bar color -->
+
+  <app_installed_color value="#9ece6a" />
+  <app_uninstalled_color value="#f7768e" />
+  <hint_color value="#9ece6a" />
+  <mark_color value="#b4f9f8" />
+  <notes_color value="#6272a4" />
+  <notes_locked_color value="#89B4FA" />
+  <link_color value="#8be9fd" />
+  <restart_message_color value="#ffffffff" />
+
+  <unlock_counter_color value="#ffff9800" />
+  <session_info_color value="#bb9af7" />
+  <status_lines_bgrectcolor
+    value="#00000000,#00000000,#00000000,#00000000,#00000000,#00000000,#00000000,#00000000,#00000000" />
+  <input_bgrectcolor value="#0073daca" />
+  <output_bgrectcolor value="#00000000" />
+  <toolbar_bgrectcolor value="#00000000" />
+
+  <suggestions_bg value="#24283b" />
+  <suggestions_bgrectcolor value="#00000000" />
+
+  <status_lines_bg value="#00000000,#00000000,#00000000,#00000000,#00000000,#00000000,#00000000,#00000000,#00000000" />
+  <input_bg value="#001a1b26" />
+  <output_bg value="#00000000" />
+
+  <status_lines_shadow_color
+    value="#90000000,#90000000,#90000000,#90000000,#90000000,#90000000,#90000000,#00000000,#00000000" />
+  <input_shadow_color value="#AA000000" />
+  <output_shadow_color value="#DD000000" />
+</THEME>

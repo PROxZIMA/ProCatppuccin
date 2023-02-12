@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BEHAVIOR>
+
+  <double_tap_lock value="true" />
+  <!--  If true, t-ui will lock the screen on double tap  -->
+
+  <double_tap_cmd value="" />
+  <!--  The command that will run when you touch two times the screen quickly  -->
+
+  <random_play value="true" />
+  <!--  If true, music player will play your tracks in random order  -->
+
+  <songs_folder value="/storage/emulated/0/Music" />
+  <!--  The folder that contains your music files  -->
+
+  <songs_from_mediastore value="false" />
+  <!--  If true, t-ui will get tracks from the system mediastore  -->
+
+  <tui_notification value="false" />
+  <!--  If true, there will always be a notification in your status bar, telling you that t-ui is running  -->
+
+  <auto_show_keyboard value="false" />
+  <!--  If true, your keyboard will be shown everytime you go back to t-ui  -->
+
+  <auto_scroll value="true" />
+  <!--  If true, the terminal will be automatically scrolled down when the keyboard is open  -->
+
+  <show_hints value="false" />
+  <!--  If true, t-ui will tell you some useful hints sometime  -->
+
+  <show_alias_content value="false" />
+  <!--  If true, when you use an alias you'll also be able to know what command has been executed  -->
+
+  <show_launch_history value="true" />
+  <!--  If false, t-ui won't show the apps that you launch  -->
+
+  <clear_after_cmds value="-1" />
+  <!--  Auto-clear after n commands (if -1, this feature will be disabled)  -->
+
+  <clear_after_seconds value="-1" />
+  <!--  Auto-clear after n seconds (if -1, this feature will be disabled)  -->
+
+  <clear_on_lock value="false" />
+  <!-- If true, t-ui will clear the screen when you lock the phone -->
+
+  <max_lines value="-1" />
+  <!--  Set maximum number of lines that will be shown in the terminal (if -1, this feature is be disabled)  -->
+
+
+  <time_format_separator value="@" />
+
+  <!--  This is the separator between your different time formats  -->
+
+  <battery_medium value="50" />
+  <!--  The percentage below which the battery level will be considered "medium"  -->
+
+  <battery_low value="20" />
+  <!--  The percentage below which the battery level will be considered "low"  -->
+
+  <!-- ###  ###-->
+  <!-- ### FORMAT OF THE VARIOUS ELEMENTS OF THE STATUS BAR ###-->
+  <!-- ###  ###-->
+
+  <!-- Source formats -->
+
+  <device_format
+    value="  profetch%n                     %%n                    %+%               ╭─⠀ ¥ ¶%n                     \                ├─⠀ π%n                  %\%  %%             ├─⠀ /data : ∆%n                 %++% /+*             ├─廬⠀ Security patch : ÷%n                 *++* \+*             ╰─⠀ T-UI Expert%n             /+\/++++*%//\\" />
+
+  <battery_format
+    value="%n             %++++++++**++  %         ╭─⠀ ✓%n           % \+++++=++++++ %+\        ├─⠀ ¢ ≠%n        +/ **++==++-=+++++\/+*        ├─%(/)  %v% %( charging/in use)" />
+
+  <time_format
+    value="%n       \+++-----:::::::---===+\       ╰─⠀ EEE, dd MMM HH:mm:ss y%n        %*+----::::::::-----=\%n          %*=-:::::::::::-+*%                               %n             %/\*+**+**\/%n   @HH:mm:ss" />
+
+  <ram_format value="%n      %*+\ +++=+++=--+=++++///        ├─⠀ %avgbGB / %totgbGB" />
+
+  <storage_format
+    value="%n      %** *++++-=------+++++*+%       ╰─⠀ %iavgbGB / %itotgbGB (%iav%%)%n      % /*++=+=--------==+++++\" />
+
+  <network_info_format
+    value="%n      ++*+++++-----:-----=+=+++       ╭─%(泌⠀ %wn - %ip4/%[說⠀ Mobile Data: %dt/⠀ No Internet access])%n      \++++==----::::----=+++++       ├─⠀ " />
+
+  <input_format value="%n%p %i" />
+  <output_format value="%o" />
+  <session_info_format value="%u %p" />
+
+  <enable_app_launch value="true" />
+  <!--  If false, you won't be able to launch apps from t-ui, unless you use "apps -frc"  -->
+
+  <app_launch_format value=" ﬌  running %l (%p)..." />
+
+
+  <alias_param_marker value="%" />
+  <!--  Define the marker that will be replaced with a provided param  -->
+
+  <alias_param_separator value="," />
+  <!--  Define the separator between a group of params  -->
+
+  <alias_replace_all_markers value="true" />
+  <!--  If true, if you pass a lower number of parameters to an alias, t-ui will use the first one to replace the others  -->
+
+  <multiple_cmd_separator value=";" />
+  <!--  The separator between two or more commands in a single input  -->
+
+  <alias_content_format value="%a --> [%v]" />
+
+  <external_storage_path value="/storage/491E-1203" />
+  <!-- The path to your external storage (used to evaluate free/total space)   -->
+
+  <home_path value="/storage/emulated/0" />
+  <!--  The path to your home directory  -->
+
+  <app_installed_format value="%n[] %l (%p) was installed" />
+  <app_uninstalled_format value="%n[] %l (%p) was uninstalled" />
+
+
+  <enable_music value="false" />
+  <!--  If true, you will be able to use t-ui as a music player. Otherwise, the music command will try to communicate with the music player that your using  -->
+
+  <max_optional_depth value="2" />
+
+  <network_info_update_ms value="3500" />
+  <!--  The time between two network info updates  -->
+
+  <tui_notification_title value="T-tUI" />
+  <tui_notification_subtitle value="T-UI is running" />
+  <tui_notification_click_cmd value="" />
+  <tui_notification_click_showhome value="true" />
+  <tui_notification_lastcmds_size value="5" />
+  <tui_notification_lastcmds_updown value="true" />
+  <tui_notification_priority value="0" />
+
+  <long_click_vibration_duration value="0" />
+  <long_click_duration value="275" />
+  <click_commands value="true" />
+  <long_click_commands value="true" />
+
+  <append_quote_before_file value="false" />
+
+  <optional_values_separator value="/" />
+
+  <notes_sorting value="0" />
+  <!-- 0 = time up->
+down; 1 = time down->
+up; 2 = alphabetical up->
+down; 3 = alphabetical down->
+up; 4 = locked before; 5 = unlocked before -->
+
+  <notes_allow_link value="true" />
+  <!-- If false, adding links to notes will be disallowed (may slightly increase performance) -->
+
+  <orientation value="2" />
+  <!-- 0 = landscape, 1 = portrait, 2 = auto-rotate -->
+
+  <htmlextractor_default_format value="%t -> %v%n%a(%an = %av)(%n)" />
+  <!-- The default format used by htmlextract -use -->
+
+  <htmlextractor_notfound_message value="Not found" />
+  <!-- The message printed when there are no result inside your htmlextract query  -->
+
+  <tui_notification_time_color value="#03A9F4" />
+  <!-- The time color inside the t-ui notification -->
+
+  <tui_notification_input_color value="#ff00ff00" />
+  <!-- The input color inside the t-ui notification -->
+
+  <!-- ###  ###-->
+  <!-- #### WEATHER ####  -->
+  <!-- ###  ###-->
+
+  <weather_key value="1f798f99228596c20ccfda51b9771a86" />
+  <!-- The key of your account on OpenWeatherMap. You can keep the default one, or create your custom key (check the wiki) -->
+
+  <weather_temperature_measure value="metric" />
+  <!-- metric = Celsius; imperial = Fahrenheit; standard = Kelvin -->
+
+  <weather_location value="1259229" />
+  <!-- The ID of your country (check the wiki) or your coords separated by a comma (lat,lon) -->
+
+  <!--weather_format value="#[Clear/&#55356;&#57118;][Clouds/☁️][Scattered clouds/☁️][Broken clouds/☁️][Shower rain/&#55356;&#57127;️][Rain/&#55356;&#57127;️][Thunderstorm/&#55356;&#57129;️][Snow/&#55356;&#57128;️][Mist/&#55356;&#57131;️]%main %temp SM8150C"-->
+
+  <!--weather_format value="%main #[Clear/&#55356;&#57118;][Clouds/☁️][Scattered clouds/☁️][Broken clouds/☁️][Shower rain/&#55356;&#57127;️][Rain/&#55356;&#57127;️][Thunderstorm/&#55356;&#57129;️][Snow/&#55356;&#57128;️][Mist/&#55356;&#57131;️]%main, &#55356;&#57121;%temp SM8150C (&#55357;&#56634;%temp_max°), &#55357;&#56488; %speed$(*3.6) km/h, &#55357;&#56487;%humidity%"/-->
+
+  <!-- <weather_format
+    value="%name:   %temp SM8150C • #[Thunderstorm/][Drizzle/][Rain/][Snow/ﰕ][Mist/][Smoke/][Haze/][Dust/][Fog/[Sand/][Ash/][Squall/][Tornado/][Clear/][Clouds/]%main %description • 龍 %speed$(*3.6) km/h •  #7aa2f7[%humidity]%" /> -->
+  <weather_format value="+%temp(%temp_max)°C (%name, %country)" />
+
+  <weather_update_time value="108000" />
+  <!-- The weather update time in seconds. This can only be used if you're using a custom weather key -->
+
+  <location_update_mintime value="30" />
+  <!-- The amount of time between two location updates (in minutes, must be an integer value) -->
+
+  <location_update_mindistance value="10000" />
+  <!-- The minimum distance (in meters) to get a location update -->
+
+  <show_weather_updates value="false" />
+  <!-- If false, t-ui won't show information about the weather in the output field -->
+
+
+  <!-- #### The format used to show the unlock counter ### -->
+
+  <unlock_counter_format value="Unlocked %c times (%a10/)%n%t(Unlock n. %i --> %w)3" />
+  <!-- The format used to show the unlock counter -->
+
+  <unlock_time_divider value="%n" />
+  <!-- The divider between the last unlock times -->
+
+  <unlock_time_order value="1" />
+  <!-- 1 = up-down. 2 = down-up -->
+
+  <unlock_counter_cycle_start value="6.00" />
+  <!-- The starting hour of the unlock counter cycle (hh.mm) -->
+
+  <not_available_text value="n/a" />
+  <!-- The text shown when a value is not available -->
+
+  <back_button_enabled value="true" />
+  <!-- If true, the back button will put the previous command inside the input area -->
+
+</BEHAVIOR>

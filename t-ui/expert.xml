@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EXPERT>
+
+  <show_help value="false" />
+  <!--Show HELP command on suggestions bar-->
+
+  <show_call value="false" />
+  <!--Show CALL command on suggestions bar-->
+
+  <show_exit value="true" />
+  <!--Enable/disable EXIT command-->
+
+  <exit_password value="" />
+  <!-- EXIT command asks forx a password if specified -->
+
+  <use_root value="false" />
+  <!--[true/false]: always use root if possible -->
+
+  <numbering_notes value="false" />
+  <!--[true/false]: notes are numbered automatically -->
+
+  <custom_command_timeout value="3600" />
+  <!--timeout: 60 (refresh every 60s) -->
+
+  <show_custom_command value="false" />
+  <custom_command_size value="11" />
+  <custom_command_index value="9" />
+
+  <!--custom_command value="curl -s wttr.in/?0T"/-->
+  <custom_command value="curl -s wttr.in/?0qMT" />
+
+
+  <termux_timeout value="300" />
+
+</EXPERT>

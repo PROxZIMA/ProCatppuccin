@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMD>
+<default_search value="-gg"/>
+<!-- Default SEARCh command option -->
+<!-- options: -ps (PLayStore); -gg (Google); -yt (YouTube); -u (URL); -dd (DuckDuckGO) -->
+</CMD>

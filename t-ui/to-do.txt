@@ -1,0 +1,7 @@
+Test To-Do
+
+Type "save" in the input field at the bottom to save to-do file
+
+Type "exit" to exit
+
+Type "showtodo" in t-ui to display to-do file

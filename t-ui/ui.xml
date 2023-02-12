@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UI>
+
+  <!--  ##### MAIN SETTINGS #### -->
+  <!-- <username value="proxzima " /> -->
+  <username value="" />
+  <device_name value="PROxZIMA" />
+
+  <show_enter_button value="false" />
+  <!-- Hide/show the enter button -->
+
+  <system_font value="false" />
+  <!-- If true, the default t-ui font ("Lucida Console") will be used for all texts -->
+
+  <system_wallpaper value="true" />
+  <!-- If true, your system wallpaper will be used as background -->
+
+  <fullscreen value="true" />
+  <!-- If true, t-ui will run in fullscreen mode -->
+
+  <input_bottom value="true" />
+  <!--  If false, the input field will be placed on top of the screen -->
+
+  <input_prefix value="  " />
+  <input_root_prefix value="  " />
+  <!-- ############################  -->
+
+  <!-- ##### SHOW/HIDE STATUS BAR ITEMS (and more) ##### -->
+  <show_app_installed value="true" />
+  <show_app_uninstalled value="true" />
+
+  <show_time value="true" />
+  <show_device_name value="true" />
+  <show_ram value="true" />
+  <show_storage_info value="true" />
+  <show_battery value="true" />
+
+  <show_network_info value="true" />
+  <show_weather value="true" />
+  <show_notes value="true" />
+
+  <show_unlock_counter value="false" />
+  <show_scroll_notes_message value="false" />
+  <!-- If true, you will get a message when your notes reach the value set in notes_max_lines -->
+
+  <show_restart_message value="true" />
+  <!-- If false, the restart message won't be shown -->
+
+  <show_session_info value="true" />
+  <!-- If true, when your input field is empty there will be a short line containing some information about the current session -->
+
+  <!-- ############################  -->
+
+  <!-- ##### STATUS BAR ITEMS SIZE ##### -->
+
+  <time_size value="11" />
+  <battery_size value="11" />
+  <ram_size value="11" />
+  <device_size value="11" />
+  <storage_size value="11" />
+  <network_size value="11" />
+  <notes_size value="11" />
+  <weather_size value="11" />
+  <unlock_size value="11" />
+  <input_output_size value="11" />
+  <!-- ############################  -->
+
+  <!-- ##### STATUS BAR ITEMS INDEX ##### -->
+
+  <device_index value="0.0" />
+  <battery_index value="0.1" />
+  <ram_index value="0.2" />
+  <storage_index value="0.3" />
+  <network_index value="0.4" />
+  <weather_index value="0.5" />
+  <time_index value="0.6" />
+  <notes_index value="1" />
+  <!--
+  <device_index value="0.0" />
+  <time_index value="0.1" />
+  <ram_index value="0.2" />
+  <storage_index value="0.3" />
+  <battery_index value="0.4" />
+  <network_index value="0.5" />
+  <weather_index value="2" />
+  <notes_index value="3" /> -->
+
+  <unlock_index value="8" />
+  <!-- ############################  -->
+
+  <!-- ###  NOTES SETTINGS ###  -->
+  <notes_divider value="%n" />
+  <notes_header value="%( ----  : %c ----%n/ ----  : No notes ----%n)" />
+  <notes_footer value="%(%n - --- ----- --- -/)" />
+  <notes_max_lines value="15" />
+  <!-- ############################  -->
+
+  <!-- ###  SHADOWS AND MORE ###  -->
+
+  <bgrect_params value="2,16" />
+
+  <!-- [Stroke width],[Rect corner radius] -->
+
+  <shadow_params value="2,2,0.8" />
+  <!-- [Shadow X offset],[Shadow Y offset],[Shadow radius] -->
+
+  <text_redraw_times value="1" />
+  <!-- A greater value will result in a bigger outline -->
+
+  <statusbar_light_icons value="false" />
+  <!-- If true, your status bar icons will be white. Dark otherwise  -->
+
+  <ignore_bar_color value="false" />
+  <!-- If true, statusbar_color and navigationbar_color will be ignored -->
+
+  <enable_battery_status value="true" />
+  <!-- If true, battery color will change when your battery level reach different percentages battery_color high, battery_color_medium, battery_color_low. If false, only battery_color_high is used -->
+  <!-- ############################  -->
+
+  <!-- ###  MARGINS and ALIGNMENT ###  -->
+
+  <display_margin_mm value="1,1,1,4" />
+  <!-- [left margin],[top margin],[right margin],[bottom margin] -->
+
+  <input_area_margins value="10,3,10,20" />
+  <input_field_margins value="0,3,0,0" />
+  <status_lines_margins value="0,0,10,0" />
+  <output_field_margins value="10,3,10,0" />
+  <suggestions_area_margin value="10,10,0,0" />
+  <toolbar_margins value="50,0,90,0" />
+  <!-- [External horizontal margin],[E. vertical margin],[Internal horizontal margin],[I. vertical margin] -->
+
+  <status_lines_alignment value="-1,0,0,0,0,0,0,0" />
+  <!-- The alignment of the nth status line (<0 = left, =0 = center, 0 = right)  -->
+
+  <deviceName value="PROxZIMA" />
+</UI>

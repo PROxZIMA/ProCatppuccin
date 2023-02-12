@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APPS>
+  <!-- ### default-suggested apps ### -->
+  <default_app_n1 value="com.android.contacts" foreColor="#eba0ac" />
+  <default_app_n2 value="com.android.vending" foreColor="#eba0ac" />
+  <default_app_n3 value="null" />
+  <default_app_n4 value="null" />
+  <default_app_n5 value="null" />
+
+  <app_groups_sorting value="4" />
+  <!-- 0 = time up->
+down; 1 = time down->
+up; 2 = alphabetical up->
+down; 3 = alphabetical down->
+up; 4 = most used up->
+down; 5 = most used down->
+up -->
+
+  <TOOLS
+    apps="com.miui.compass-com.miui.compass.CompassActivity;com.xiaomi.scanner-com.xiaomi.scanner.app.ScanActivity;com.miui.screenrecorder-com.miui.screenrecorder.activity.ScreenRecorderHomeActivity;com.android.deskclock-com.android.deskclock.DeskClockTabActivity;com.android.soundrecorder-com.android.soundrecorder.SoundRecorder;com.android.calendar-com.android.calendar.homepage.AllInOneActivity;com.miui.calculator-com.miui.calculator.cal.CalculatorActivity;com.loomatix.colorgrab-com.loomatix.colorgrab.SplashActivity;com.sharpregion.tapet-com.sharpregion.tapet.main.home.HomeActivity"
+    foreColor="#9aa5ce" />
+  <SOCIAL
+    apps="com.twitter.android-com.twitter.android.StartActivity;tv.twitch.android.app-tv.twitch.android.app.core.LandingActivity;com.instagram.android-com.instagram.android.activity.MainTabActivity"
+    foreColor="#89b4fa" />
+  <GAMES
+    apps="com.ea.game.pvz2_row-com.popcap.PvZ2.PvZ2GameActivity;com.pikpok.dr2.play-com.pikpok.PikPokUnityActivity;com.kiarygames.tinyroom-com.unity3d.player.UnityPlayerActivity;com.netflix.NGP.IntoTheDead2Unleashed-com.pikpok.PikPokUnityActivity"
+    foreColor="#A6E3A1" />
+  <ROOT
+    apps="com.feravolt.fdeai-com.feravolt.fdeai.activities.MainActivity;com.feravolt.preload-com.feravolt.preload.MainActivity;eu.chainfire.liveboot-eu.chainfire.liveboot.MainActivity;de.hp.terminalshortcut-de.hp.terminalshortcut.ShowShortcuts;by4a.setedit22-by4a.setedit.EditorActivity;com.topjohnwu.magisk-com.topjohnwu.magisk.ui.MainActivity;com.fox2code.mmm-com.fox2code.mmm.MainActivity;simple.reboot.com-simple.reboot.com.MainActivity"
+    foreColor="#F38BA8" />
+  <MEDIA
+    apps="com.google.android.youtube-com.google.android.youtube.app.honeycomb.Shell$HomeActivity;free.tube.premium.advanced.tuber-com.biomes.vanced.main.MainActivity;free.rm.skytube.extra-free.rm.skytube.gui.activities.MainActivity;us.zoom.videomeetings-com.zipow.videobox.LauncherActivity;com.radiosonline.radiofmitalia-com.allaboutradio.coreradio.ui.home.HomeActivity;com.google.android.GoogleCamera.Urnyx-com.android.camera.CameraLauncher;com.android.camera-com.android.camera.Camera;com.netflix.mediaclient-com.netflix.mediaclient.ui.launch.UIWebViewActivity"
+    foreColor="#F5C2E7" />
+  <GOOGLE
+    apps="com.google.android.apps.docs-com.google.android.apps.docs.app.NewMainProxyActivity;com.google.android.apps.docs.editors.sheets-com.google.android.apps.docs.app.NewMainProxyActivity;com.google.android.googlequicksearchbox-com.google.android.googlequicksearchbox.SearchActivity;com.google.android.play.games-com.google.android.gms.games.ui.destination.main.MainActivity;com.android.vending-com.android.vending.AssetBrowserActivity;com.google.android.apps.walletnfcrel-com.google.commerce.tapandpay.android.cardlist.CardListActivity;com.google.android.apps.translate-com.google.android.apps.translate.TranslateActivity"
+    foreColor="#F9E2AF" />
+</APPS>
